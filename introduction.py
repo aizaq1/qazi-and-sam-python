@@ -4,7 +4,7 @@
 
 # introduction = "Hello my name is Qazi"
 
-# Primitive (simple) Data Types
+# Primitive(simple) Data Types
 
 # 2. Variables
 # greeting = "Hello everyone"
@@ -18,9 +18,9 @@
 # print(age)
 
 # Arithmetic
-# print(age + 5) # Addition
-# print(age - 2) # Subtraction
-# print(age * 2) # Multiplication [Located above 8 on the keyboard]
+# print(age + 5)  # Addition
+# print(age - 2)  # Subtraction
+# print(age * 2)  # Multiplication [Located above 8 on the keyboard]
 # print(age / 2)  # Division [Located below the question mark on the keyboard]
 
 # 4. Floating Point Numbers or Floats (Decimals)
@@ -33,7 +33,7 @@
 # Camel Case
 # isCold = False
 # if isCold:
-# print("It is cold outside.")
+#     print("It is cold outside.")
 
 # print(False)
 
@@ -54,11 +54,20 @@
 
 # In Java, the boolean True is actually true (spelled lowercase). So we probably don't want to use this kind of variable name.
 # Keywords: do not use as variable names
+# for
+# in
+# this
+# while
+# if
+# else
 
 # Why do we use different data types?
 
 # print("Hello world\n" * 100)
 # Escape sequence: BACKSLASH (\) + A LETTER
+# \b
+# \t
+# \n
 
 # Methods - A method is basically an operation on a data type or a variable
 
@@ -74,11 +83,11 @@
 # greeting = greeting.lower()
 # print(greeting)
 
-# print(greeting.split()) # Returns an Array
-# The default split location is the SPACE
+# print(greeting.split())  # Returns an Array/List
+# The default split location or "splitter" is the SPACE
 
 # addresses = "5630 27th Avenue | 7930 87th Street | 3530 90th Road | 2323 65th Drive"
-# print(addresses.split("|")) # A parameter
+# print(addresses.split(" | "))  # A parameter
 
 # greeting = "Hello EVERYONE MY NAME IS JOHN"
 
@@ -95,14 +104,15 @@
 
 # firstInitial = "J"
 # lastInitial = "3"
-# print(firstInitial.isalpha()) # Is it part of an alphabet?
+# print(firstInitial.isalpha())  # Is it part of an alphabet?
 # print(lastInitial.isalpha())
 
 # age = "15"
-# print(age.isnumeric()) # Is it a number?
+# print(age.isnumeric())  # Is it a number?
 
 # greeting = "Hello world hello everyone hello humanity"
-# print(greeting.replace("h", "X")) # replace all (lowercase) "h" with (uppercase) "X"
+# replace all (lowercase) "h" with (uppercase) "X"
+# print(greeting.replace("h", "X"))
 
 # greeting.isascii()
 # ASCII We will look at this a little more later on through some examples
