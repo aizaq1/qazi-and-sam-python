@@ -51,13 +51,31 @@
 # For loops
 # number = "123456789"
 # for [a reference variable] in [variable name of the data structure]:
-#     [Tell it what to do]
-# for num in number:
+# [Tell it what to do]
+# for num in number:  # "Iteration"/"iterate"
 #     print(num)
 
 # List/Array - another data structure that we will go more in depth with later on
-# numbers = [3, 4, 1, 8, 9, 10, 6, 7, 9]
+# numbers = [3, 4, 1, 8, 9, 10, 6, 7, 9]  # an example of a list of integers
 # for number in numbers:
 #     print(number)
 
-names = ["Mary", "Jake", "John", "Samia", "Jeff", "Arthur"]
+# The range() method
+
+# Range() with one parameter
+# range(5) : generates 0, 1, 2, 3, 4
+# range(10): generates 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+# Range() with two parameters
+# range(1, 5): generates 1, 2, 3, 4
+# range(2, 10): generates 2, 3, 4, 5, 6, 7, 8, 9
+
+# Range() with three parameters
+# range(1, 10, 2): 1, 3, 5, 7, 9
+# range(2, 15, 3): 2, 5, 8, 11, 14
+
+# Using a for-loop with range
+# for variable in range(something):
+
+# for i in range(2, 15, 3):
+#     print(i)
