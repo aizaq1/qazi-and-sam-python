@@ -15,8 +15,9 @@
 # Comparison operators: < (less than), > (greater than), == (equal to), <= (less than or equal to), >= (greater than or equal to)
 # print(3 > 4) # The comparison operators return a BOOLEAN
 # print(3 == 4)
+# print("3" == 3)
 
-# age = 17 # assignment
+# age = 17  # assignment
 
 # if (age > 17):
 #     print("You are an adult.")
@@ -48,21 +49,23 @@
 
 # Tests for the "and" operator
 # "and" is true when BOTH are true
-# print(True and True) # True
-# print(True and False) # False
-# print(False and True) # False
-# print(False and False) # False
+# print(True and True)  # True
+# print(True and False)  # False
+# print(False and True)  # False
+# print(False and False)  # False
 
 # Tests for the "or" operator
 # "or" is true when EITHER are true
-# print(True or True) # True
-# print(True or False) # True
-# print(False or True) # True
-# print(False or False) # False
+# print(True or True)  # True
+# print(True or False)  # True
+# print(False or True)  # True
+# print(False or False)  # False
 
 # input()
 # age = input("Enter your age: ") # the input method stores a String
 # print(age * 2) # age is a String here, here the String gets duplicated instead of multiplying the age by 2
+
+# MENTION SHORT-CIRCUITING
 
 # String concatenation
 # print("You are " + age + " years old")
