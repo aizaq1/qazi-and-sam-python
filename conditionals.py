@@ -67,11 +67,21 @@
 
 # MENTION SHORT-CIRCUITING
 
-# String concatenation
+# print((False and True) or (True and True))
+# print(False or True)
+# print(True)
+
+# print(False and True)  # Short-circuiting : skips the "True"
+# print(True or False)  # Short-circuiting: skips the "False"
+
+# age = 13
+# height = 70.5
+# name = "John"
+# String concatenation - adding strings together
 # print("You are " + age + " years old")
 
 # Formatted string
-# print(f"You are {age} years old")
+# print(f"You are {age} {height} {name} years old")
 
 # Sample program
 # Rules:
@@ -86,17 +96,19 @@
 # Less than or equal to: <= (AT MOST/MAXIMUM)
 
 # Type-casting into an integer, because input() returns a String
-# age = int(input("How old are you? ")) # age is now an Integer, not a String
+# age = int(input("How old are you? "))  # age is now an Integer, not a String
 # if (age >= 12):
 #     print("You can play the game!")
 #     print("Welcome to the Ring Game!")
-#     tosses = int(input("How many tosses did it take you? ")) # tosses is now an Integer
+#     # tosses is now an Integer
+#     tosses = int(input("How many tosses did it take you? "))
 #     if (tosses <= 3):
 #         print("You won!")
 #     else:
 #         print("You have to walk across the pool. :(")
 #         madeItAcross = input("Did you make it across the pool? ")
-#         if (madeItAcross.upper() == "YES"): # checks to see if the inputted String in all CAPITAL is "YES"
+#         # checks to see if the inputted String in all CAPITAL is "YES"
+#         if (madeItAcross.upper() == "YES"):  # yES yEs allowed
 #             print("You won $500,000!")
 #         else:
 #             print("Go home!")
@@ -104,7 +116,7 @@
 #     print("You cannot play.")
 
 # The "not" operator - negate (make it opposite) a boolean
-# isYoung = True
+# isYoung = False
 # if not isYoung:
 #     print("You are not young.")
 # else:
@@ -117,3 +129,9 @@
 #     print("You cannot play.")
 # else:
 #     print("You can play!")
+
+# Same as below:
+# if age == 18:
+#     print("You can play!")
+# else:
+#     print("You cannot play.")

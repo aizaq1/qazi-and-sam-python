@@ -6,11 +6,14 @@
 
 # Keyboard Interrupt – CONTROL + C
 
-# count = 1
+# import time
+
+# count = 2
 # while True:
 #     print(count)
 #     # count = count + 1  # Increase the variable by 1
-#     count += 1  # Same as above
+#     time.sleep(1)  # Wait one second
+#     count *= 2  # Same as above
 
 # Simple Program:
 # Guessing game
@@ -18,16 +21,16 @@
 # from random import Random
 # import random  # Assume for now that this imports a library that we need
 
-# # Get a random integer from 1 to the maximum (chosen by the user) and set it equal to the variable number
+# Get a random integer from 1 to the maximum (chosen by the user) and set it equal to the variable number
 # maximum = int(input("Enter a maximum value: "))
 # targetAnswer = random.randint(1, maximum)  # random integer
 
-# # Ask the user for a guess
+# Ask the user for a guess
 # guess = int(input(f"Guess a number from 1 to {maximum}: "))
 
 # while guess != targetAnswer:
 #     # asks the user for a new guess
-#     if (abs(guess - targetAnswer) <= 10):
+# if (abs(guess - targetAnswer) <= 10):
 #         guess = int(
 #             input(f"Within 10. Guess a number from 1 to {maximum}: "))
 #     else:
@@ -50,8 +53,8 @@
 
 # For loops
 # number = "123456789"
-# for [a reference variable] in [variable name of the data structure]:
-# [Tell it what to do]
+# # for [a reference variable] in [variable name of the data structure]:
+# # [Tell it what to do]
 # for num in number:  # "Iteration"/"iterate"
 #     print(num)
 
@@ -77,5 +80,5 @@
 # Using a for-loop with range
 # for variable in range(something):
 
-# for i in range(2, 15, 3):
-#     print(i)
+# for number in range(2, 15, 3):
+#     print(number)
