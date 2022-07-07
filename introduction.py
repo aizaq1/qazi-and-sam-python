@@ -17,6 +17,8 @@
 # The integer 13 is ASSIGNED to the variable: age
 # print(age)
 
+# print("4"*100) # prints "4" one hundred times
+
 # Arithmetic
 # print(age + 5)  # Addition
 # print(age - 2)  # Subtraction
@@ -27,18 +29,19 @@
 #    Doubles (Also Decimals)
 
 # print(13.3)
-# print(0.353345)
+# print(-0.353345)
 
 # 5. Booleans (True / False)
-# Camel Case
+# Camel Case - first word is lowercase and every other word is capitilized.
 # isCold = False
 # if isCold:
 #     print("It is cold outside.")
 
-# print(False)
+# print(True)
 
 # AVOID THIS: (BOOLEAN AS THE VARIABLE NAME)
 # true = "John"
+# print(true)
 
 # age = 13
 
@@ -53,6 +56,7 @@
 # print(ageString * 2)
 
 # In Java, the boolean True is actually true (spelled lowercase). So we probably don't want to use this kind of variable name.
+
 # Keywords: do not use as variable names
 # for
 # in
@@ -65,16 +69,20 @@
 
 # print("Hello world\n" * 100)
 # Escape sequence: BACKSLASH (\) + A LETTER
-# \b
-# \t
-# \n
+# \b - backspace
+# \t - tab
+# \n - new line
+# \\ - new backslash
+
+# print("/\\")
 
 # Methods - A method is basically an operation on a data type or a variable
 
 # greeting = "Hello EVERYONE MY NAME IS JOHN"
 
-# To call a method, use a DOT (.) followed by the method name, and then by open and closed parentheses ().
-# greeting.upper()
+# To call a method, use a DOT (.) followed by the method name, and then by open and closed parentheses (). Methods must be called on objects.
+# if you want to see the changes, reassign to the variable
+# greeting = greeting.upper()
 # greeting.lower()
 
 # print(greeting.lower())
@@ -91,12 +99,12 @@
 
 # greeting = "Hello EVERYONE MY NAME IS JOHN"
 
-# print(greeting.startswith(" He"))
-# print(greeting.endswith("John"))
+# print(greeting.startswith(" He"))  # Prints False
+# print(greeting.endswith("John"))  # Prints False
 
 # .count() to count the number of occurrences
 
-# print(greeting.count(" "))
+# print(greeting.count("E"))
 
 # name = "John Smith"
 # len() for checking the length of the string - number of characters
@@ -114,5 +122,5 @@
 # replace all (lowercase) "h" with (uppercase) "X"
 # print(greeting.replace("h", "X"))
 
-# greeting.isascii()
+# print(greeting.isascii())
 # ASCII We will look at this a little more later on through some examples

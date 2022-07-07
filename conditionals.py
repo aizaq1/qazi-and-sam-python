@@ -3,21 +3,23 @@
 # Boolean : True / False
 # Syntax (the way we write the code)
 
-# if - else constructions
+# # if - else constructions
 # isCold = False
 # if isCold:
+#     # This is the "if" block
 #     print("It is cold outside.")
 # else:
+#     # This is the "else" block
 #     print("It is very hot outside.")
 #     print("It is hot outside.")
 
 # Regular operators: + - / *
 # Comparison operators: < (less than), > (greater than), == (equal to), <= (less than or equal to), >= (greater than or equal to)
-# print(3 > 4) # The comparison operators return a BOOLEAN
+# print(3 > 4)  # The comparison operators return a BOOLEAN
 # print(3 == 4)
-# print("3" == 3)
+# print("3" == 3)  # two equal signs means "do a comparison"
 
-# age = 17  # assignment
+# age = 17  # one equal sign means assignment to a variable
 
 # if (age > 17):
 #     print("You are an adult.")
